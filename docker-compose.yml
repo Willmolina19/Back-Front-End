@@ -22,7 +22,7 @@ services:
       - mongodb
     volumes:
       - ./backend:/app
-    command: npm run dev
+    command: npm start
 
 volumes:
   mongo-data:
